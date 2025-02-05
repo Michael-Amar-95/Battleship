@@ -7,11 +7,11 @@ In the standard version, two players compete, but this implementation is a singl
 ## Game Rules
 1. Submarine Placement
 
-*Submarines are placed randomly on a 10x10 grid before the game starts.
-*Submarines cannot be moved once the game begins.
-*Placement rules:
-**Submarines can be placed horizontally or vertically (not diagonally).
-**Submarines cannot overlap or touch each other, even diagonally.
+* Submarines are placed randomly on a 10x10 grid before the game starts.
+* Submarines cannot be moved once the game begins.
+* Placement rules:
+** Submarines can be placed horizontally or vertically (not diagonally).
+** Submarines cannot overlap or touch each other, even diagonally.
 
 2. Submarine Types & Sizes
 The game consists of five submarines of varying sizes:
