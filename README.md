@@ -1,10 +1,10 @@
-#Battleship - A Single-Player Tactical Game
-##Introduction
+# Battleship - A Single-Player Tactical Game
+## Introduction
 Battleship is a classic board game that combines strategy and luck. Originally invented in 1931 as a pen-and-paper game, it was later commercialized by Milton Bradley (MB) in 1967 as a board game with plastic pieces.
 
 In the standard version, two players compete, but this implementation is a single-player game, where the player must sink all submarines in the fewest possible moves. If the player hits a submarine, they get a free turn that does not count as a move.
 
-##Game Rules
+## Game Rules
 1. Submarine Placement
 
 *Submarines are placed randomly on a 10x10 grid before the game starts.
@@ -21,7 +21,7 @@ The game consists of five submarines of varying sizes:
 *2 × Size 3
 *1 × Size 4
 
-##How the Game Works
+## How the Game Works
 The game board is represented by a 10×10 grid implemented as a 2D integer array.
 The player selects a cell by choosing a column (letter) and a row (number).
 The game responds with one of the following messages:
